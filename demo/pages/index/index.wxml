@@ -1,0 +1,21 @@
+<import src="../templates/tpl.wxml" />
+<include src="../templates/header.wxml" data="{{name: 'zhaoqian'}}" />
+<include src="../templates/header.wxml" />
+<include src="../templates/header.wxml" />
+<include src="../templates/header.wxml" />
+<include src="../templates/header.wxml" />
+
+<view>
+  <text>
+    {{msg}}
+  </text>
+
+  <text>{{msg}}</text>
+  <text>{{msg}}</text>
+  <text>{{msg}}</text>
+
+  <button bindtap="handleTap">change-msg</button>
+
+  <template is="tpl1" data="{{name: 'zhaoqian', age: 18}}"></template>
+  <template is="tpl1" data="{{name, age}}"></template>
+</view>

@@ -1,0 +1,7 @@
+<view>
+  <view bindtap="handleOuterTap">
+    <view data-id="12" catchtap="handleTap">
+      <icon type="success" size="40" color="purple"></icon>
+    </view>
+  </view>
+</view>

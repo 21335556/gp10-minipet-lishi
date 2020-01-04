@@ -1,0 +1,8 @@
+<template name="tpl1">
+  <view>
+    {{name}}
+  </view>
+  <view>
+    {{age}}
+  </view>
+</template>

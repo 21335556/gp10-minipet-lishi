@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#6435c9",
+    "navigationBarTitleText": "GP10",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000",
+    "enablePullDownRefresj": true
+  },
+  "sitemapLocation": "sitemap.json"
+}
