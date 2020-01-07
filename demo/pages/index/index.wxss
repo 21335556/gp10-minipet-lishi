@@ -1,9 +1,4 @@
 /* pages/index/inedx.wxss */
-
-button {
-  height: 200rpx;
-}
-
 view text:nth-of-type(2) {
   font-size: 100px;
 }

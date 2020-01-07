@@ -57,18 +57,6 @@ Page({
     })
   },
 
-	handleSuccBackTap() {
-		wx.navigateBack({
-			
-		})
-	},
-
-	handleFailBackTap() {
-		this.setData({
-			isSubmit: false
-		})
-	},
-
   async handleButtonTap() {
     // 验证
     if (!this.staticData.address) {

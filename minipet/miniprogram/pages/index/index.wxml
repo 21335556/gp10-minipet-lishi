@@ -17,7 +17,7 @@
     <navigator open-type="navigateTo" url="/pages/publish/publish">
       <view class="publish" url="/pages/publish/publish">发布</view>
     </navigator>
-    <navigator open-type="navigateTo">
+    <navigator open-type="navigateTo"  url="/pages/search/search">
       <view class="search">搜索</view>
     </navigator>
   </view>

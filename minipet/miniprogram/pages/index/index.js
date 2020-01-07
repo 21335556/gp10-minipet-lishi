@@ -52,7 +52,7 @@ Page({
 						content: value.type,
 						borderWidth: 2,
 						borderColor: '#fff',
-						bgCOlor: '#f9efd4'
+						bgColor: '#f9efd4'
 					}
 				}
 			})]

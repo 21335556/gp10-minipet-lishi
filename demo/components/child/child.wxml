@@ -1,0 +1,11 @@
+<view>
+	{{name}}
+</view>
+
+<view>
+	<slot></slot>
+</view>
+
+<view>
+	<button bindtap="handleButtonTap">send message</button>
+</view>

@@ -62,5 +62,13 @@ Page({
 
   onTabItemTap(item) {
     console.log(item)
-  }
+  },
+
+	handleEvent(e) {
+		console.log(e.detail.x)
+	},
+
+	handleClick() {
+		// this.selectComponent('#myID').showMsg('hello')
+	}
 })
